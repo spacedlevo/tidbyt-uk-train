@@ -1,0 +1,11 @@
+astroid==2.5.2
+isort==5.8.0
+lazy-object-proxy==1.6.0
+mccabe==0.6.1
+nre-darwin-py==0.3.0
+pylint==2.7.4
+python-dotenv==0.17.0
+suds-jurko==0.6
+tabulate==0.8.9
+toml==0.10.2
+wrapt==1.12.1

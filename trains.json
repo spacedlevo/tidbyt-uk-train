@@ -19,7 +19,25 @@
         "Edge Hill",
         "Liverpool Lime Street"
       ],
-      "std": "10:01",
+      "std": "11:02",
+      "eta": "11:10"
+    },
+    {
+      "destination": "Liverpool Lime Street",
+      "platform": "2",
+      "calling_at": [
+        "St Helens Central",
+        "Thatto Heath",
+        "Eccleston Park",
+        "Prescot",
+        "Huyton",
+        "Roby",
+        "Broad Green",
+        "Wavertree Tech Park",
+        "Edge Hill",
+        "Liverpool Lime Street"
+      ],
+      "std": "12:02",
       "eta": "On time"
     },
     {
@@ -37,7 +55,7 @@
         "Edge Hill",
         "Liverpool Lime Street"
       ],
-      "std": "11:02",
+      "std": "13:02",
       "eta": "On time"
     }
   ]
