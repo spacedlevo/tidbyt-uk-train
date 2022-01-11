@@ -29,7 +29,7 @@ def main():
 
 def renderSched(prediction, route, timezone):
     print(prediction)
-    tm = prediction["std"]
+    tm = prediction["eta"]
     if not tm:
         return []
     # t = time.parse_time(tm).in_location(timezone)
@@ -57,14 +57,14 @@ def renderSched(prediction, route, timezone):
                     render.Marquee(
                         width=50,
                         child=render.Text(
-                            content=dest,
+                            content="{} - {}".format(prediction["std"], dest),
                             height=8,
                             offset=-1,
                             font="Dina_r400-6"
                         )
                     ),
                     render.Text(
-                        content="{}".format(prediction["std"]),
+                        content="{}".format(prediction["eta"]),
                         height=8,
                         offset=-1,
                         font="Dina_r400-6",
