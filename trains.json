@@ -13,31 +13,9 @@
         "Eccleston Park",
         "Prescot",
         "Huyton",
-        "Roby",
-        "Broad Green",
-        "Wavertree Tech Park",
-        "Edge Hill",
         "Liverpool Lime Street"
       ],
-      "std": "11:02",
-      "eta": "11:10"
-    },
-    {
-      "destination": "Liverpool Lime Street",
-      "platform": "2",
-      "calling_at": [
-        "St Helens Central",
-        "Thatto Heath",
-        "Eccleston Park",
-        "Prescot",
-        "Huyton",
-        "Roby",
-        "Broad Green",
-        "Wavertree Tech Park",
-        "Edge Hill",
-        "Liverpool Lime Street"
-      ],
-      "std": "12:02",
+      "std": "08:51",
       "eta": "On time"
     },
     {
@@ -52,10 +30,26 @@
         "Roby",
         "Broad Green",
         "Wavertree Tech Park",
-        "Edge Hill",
         "Liverpool Lime Street"
       ],
-      "std": "13:02",
+      "std": "09:30",
+      "eta": "On time"
+    },
+    {
+      "destination": "Liverpool Lime Street",
+      "platform": "2",
+      "calling_at": [
+        "St Helens Central",
+        "Thatto Heath",
+        "Eccleston Park",
+        "Prescot",
+        "Huyton",
+        "Roby",
+        "Broad Green",
+        "Wavertree Tech Park",
+        "Liverpool Lime Street"
+      ],
+      "std": "10:28",
       "eta": "On time"
     }
   ]

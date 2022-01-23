@@ -14,10 +14,8 @@ def get_json():
 def main():
     timezone = "Europe/London"
     predictions = get_json()["services"]
-    print(predictions)
     rows = []
     for prediction in predictions:
-        print(prediction)
         platform = prediction["platform"]
         r = renderSched(prediction, platform, timezone)
         if r:
@@ -28,7 +26,6 @@ def main():
     )
 
 def renderSched(prediction, route, timezone):
-    print(prediction)
     tm = prediction["eta"]
     if not tm:
         return []
@@ -61,8 +58,7 @@ def renderSched(prediction, route, timezone):
                             height=8,
                             offset=-1,
                             font="Dina_r400-6"
-                        )
-                    ),
+                        )                    ),
                     render.Text(
                         content="{}".format(prediction["eta"]),
                         height=8,
